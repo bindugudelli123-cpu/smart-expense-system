@@ -1,42 +1,66 @@
 # Smart Expense System
 
-A full-stack expense management application built using Spring Boot, React, MySQL, and JWT Authentication.
+A Full Stack Expense Management Application developed using Spring Boot, React, MySQL, JWT Authentication and REST APIs.
 
 ## Features
 
-- User Registration & Login
+- User Registration and Login
 - JWT Authentication
 - Expense Management
 - Budget Management
 - Dashboard Analytics
-- Secure REST APIs
+- Expense Tracking
+- RESTful APIs
+- Secure Authentication
 
-## Technologies Used
+## Tech Stack
 
 ### Backend
 - Java
 - Spring Boot
 - Spring Security
 - JWT
-- JPA/Hibernate
+- Hibernate
+- JPA
 - MySQL
 
-### Frontend
-- React
-- Axios
-- Bootstrap
-- React Router
+### Tools
+- Maven
+- Git
+- GitHub
 
 ## Project Structure
 
-Frontend:
-React + Vite
+```text
+src
+├── controller
+├── service
+├── repository
+├── entity
+├── security
+├── exception
+└── config
+```
 
-Backend:
-Spring Boot REST API
+## API Endpoints
 
-Database:
-MySQL
+| Method | Endpoint |
+|----------|----------|
+| POST | /users |
+| POST | /login |
+| GET | /dashboard |
+| GET | /expenses |
+| POST | /expenses |
+| GET | /budgets |
+| POST | /budgets |
+
+## Database
+
+MySQL Database used for storing:
+
+- Users
+- Expenses
+- Budgets
 
 ## Author
 
